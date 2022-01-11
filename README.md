@@ -5,7 +5,7 @@ Intellij module (generated from a Gradle subproject within the same root project
 
 This project a minimal reproducer that roughly represents a layout and configuration of a much larger project, namely
 the Modular Elasticsearch server. Elasticsearch has much custom gradle plugins and configuration, but the behaviour
-encountered by this minimal reproducer project is substantially the same. 
+encountered by this minimal reproducer project is substantially representative of the issue seen in the larger project. 
 
 Version: IntelliJ IDEA 2021.3.1 (Ultimate Edition)
 
