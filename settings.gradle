@@ -1,0 +1,4 @@
+rootProject.name = 'ESServer'
+include 'server'
+include 'analysis-plugin'
+

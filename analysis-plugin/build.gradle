@@ -1,0 +1,20 @@
+plugins {
+    id 'java-library'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+dependencies {
+    implementation project(":server")
+}
+
+compileJava {
+    doFirst {
+        options.compilerArgs += [
+                '--module-path', classpath.asPath,
+                '--add-modules', "com.example.server"
+        ]
+        classpath = files()
+    }
+}
