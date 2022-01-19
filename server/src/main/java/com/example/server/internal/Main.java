@@ -26,7 +26,7 @@ public class Main {
     static final Path dependPath = Path.of(System.getProperty("user.dir")).resolve("analysis-plugin/build/deps/libs/");
 
     // -- Plugin metadata, likely read from the plugin properties file
-    static final String pluginModuleName = "ESServer.analysis.plugin.main";
+    static final String pluginModuleName = "com.example.analysis.plugin.main";
     //--
 
     static Plugin findPlugin() throws Exception {

@@ -1,0 +1,1 @@
+modular plugin - that has a module-info.java explicitly declared
